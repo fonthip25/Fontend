@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.min-vh-100 {
+  min-height: 100vh; /* ความสูงขั้นต่ำของหน้าจอ */
+}
+
+.flex-grow-1 {
+  flex-grow: 1; /* ให้พื้นที่ขยายได้เต็มที่ก่อนจะถึง footer */
+}
+
+footer {
+  background-color: #292929;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
